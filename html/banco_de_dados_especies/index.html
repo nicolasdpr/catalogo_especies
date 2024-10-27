@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Banco de dados de espécies do Nicolas</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1 class="title">Banco de dados de espécies do Nicolas</h1>
+        <div id="mainDiv">Digite o nome da espécie e outras informações abaixo para registrar no banco de dados.</div>
+        <br />
+
+        <form action="processa_dados.php" method="post" enctype="multipart/form-data">
+            <label for="inputTexto">Espécie:</label>
+            <input type="text" id="inputTexto" name="inputTexto" required>
+            <br />
+
+            <label for="inputTexto2">Observação:</label>
+            <input type="text" id="inputTexto2" name="inputTexto2">
+            <br />
+
+           
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
+
