@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/Sao_Paulo');
 // Verifica se os dados do formulário foram enviados
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Recupera os dados do formulário
